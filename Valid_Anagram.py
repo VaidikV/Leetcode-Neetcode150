@@ -12,6 +12,7 @@ def is_anagram(s: str, t: str) -> bool:
 
     for c in count_s:
         if count_s[c] != count_t.get(c, 0):
+            print(count_s)
             return False
 
     return True
