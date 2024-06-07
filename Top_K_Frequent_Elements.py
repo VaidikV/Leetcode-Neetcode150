@@ -4,7 +4,7 @@ from typing import List
 from collections import defaultdict
 
 numbers = [4, 1, -1, 2, -1, 2, 3]
-max = 2
+top = 2
 
 
 def top_k_frequent(nums: List[int], k: int) -> List[int]:
@@ -22,7 +22,7 @@ def top_k_frequent(nums: List[int], k: int) -> List[int]:
     return sol
 
 
-print(top_k_frequent(numbers, max))
+print(top_k_frequent(numbers, top))
 
 
 # Neetcode Solution
