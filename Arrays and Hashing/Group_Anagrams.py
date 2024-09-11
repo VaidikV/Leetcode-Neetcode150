@@ -4,7 +4,7 @@ from collections import defaultdict
 strings = ["eat", "tea", "tan", "ate", "nat", "bat"]
 
 
-def group_anagrams(strs: List[str]) -> List[List[str]]:
+def group_anagrams(strs: Lfist[str]) -> List[List[str]]:
     res = defaultdict(list)  # mapping char count to list of anagrams
 
     for s in strs:
