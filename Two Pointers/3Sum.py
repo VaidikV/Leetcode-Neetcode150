@@ -22,7 +22,5 @@ def three_sum(nums):
     return res
 
 
-
-nums = [0, 0, 0, 0]
-nums2 = [-4, -1, -1, 0, 1, 2]
+nums = [0 , 0, 0, 0]
 print(three_sum(nums))
