@@ -1,7 +1,5 @@
-from typing import List
 
-
-def two_sum(nums: List[int], target: int) -> List[int]:
+def two_sum(nums, target):
     prev_map = {}
 
     for i, n in enumerate(nums):
