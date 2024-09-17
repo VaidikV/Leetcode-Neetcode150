@@ -1,16 +1,19 @@
-from typing import List
-def maxProfit(prices: List[int]) -> int:
+
+
+def max_profit(prices):
     l, r = 0, 1
-    maxP = 0
+    max_p = 0
 
     while r < len(prices):
         if prices[l] < prices[r]:
             profit = prices[r] - prices[l]
-            maxP = max(maxP, profit)
+            max_p = max(max_p, profit)
         else:
             l = r
-        r +=1
+        r += 1
+    return max_p
 
-    return maxP
 
-print(maxProfit([7,1,5,3,6,4]))
+prices = [7,1,5,3,6,4]
+print(max_profit(prices))
+
