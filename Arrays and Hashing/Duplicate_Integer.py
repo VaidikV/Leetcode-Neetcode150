@@ -1,15 +1,13 @@
-nums = [1, 2, 3, 1]
+nums = [1, 2, 3]
 
 
 def hasduplicate(nums):
     hashset = set()
-
     for i in nums:
         if i in hashset:
             return True
         hashset.add(i)
     return False
-
 
 print(hasduplicate(nums))
 
@@ -25,3 +23,6 @@ print(hasduplicate(nums))
 #         if nums[i] == nums[i - 1]:
 #             return True
 #     return False
+
+
+

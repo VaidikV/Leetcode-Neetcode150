@@ -10,7 +10,7 @@ def max_profit(prices):
             max_p = max(max_p, profit)
         else:
             l = r
-        r += 1
+        r += r
     return max_p
 
 
