@@ -7,7 +7,7 @@ def reverseBits(n):
     #     res += bit
     #     n = n >> 1
     #
-    # return res
+    # return res ...
 
     res = 0
     for i in range(32):
